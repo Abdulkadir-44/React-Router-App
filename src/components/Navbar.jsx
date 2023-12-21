@@ -11,7 +11,7 @@ export default function Navbar()
                     <NavLink className="item" to="/">Home</NavLink>    
                     <NavLink className="item" to="/faqs">FAQ</NavLink>    
                     <NavLink className="item" to="/contact">Contact</NavLink>    
-                    <button>Log in</button>
+                    <NavLink to="/auth/login"><button>Log in</button></NavLink>
                 </div>
             </nav>
         </>
